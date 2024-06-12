@@ -17,3 +17,11 @@ kafka-console-producer.sh --topic quickstart --bootstrap-server localhost:9092
 ```
 kafka-console-consumer.sh --topic quickstart --from-beginning --bootstrap-server localhost:9092
 ```
+## List Topics
+```
+kafka-topics.sh --list --bootstrap-server localhost:9092
+```
+## Send message topic
+```
+kafka-console-producer.sh --broker-list localhost:9092 --topic my-topic
+```
