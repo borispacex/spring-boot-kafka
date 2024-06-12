@@ -25,3 +25,6 @@ kafka-topics.sh --list --bootstrap-server localhost:9092
 ```
 kafka-console-producer.sh --broker-list localhost:9092 --topic my-topic
 ```
+
+### Youtube
+- https://www.youtube.com/watch?v=UbbyW5Z1lv8
